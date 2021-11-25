@@ -10,6 +10,13 @@
 #symbol {
   display: inline-block;
   width: 10px;
+  color: yellow;
+  text-align: center;
+}
+
+.equals {
+  color: yellow;
+  text-align: center;
 }
 
 body {
@@ -18,7 +25,7 @@ body {
 
 .container {
   max-width: 1070px;
-  padding: 100px;
+  padding: 0 100px;
   margin: 0 auto;
 }
 
@@ -53,7 +60,7 @@ body {
   width: 50px;
   padding: 5px;
   background: antiquewhite;
-  color: black;
+  color: orangered;
   margin-bottom: 20px;
   font-weight: bold;
 }
@@ -62,12 +69,16 @@ body {
   background: yellow;
 }
 
+.maths {
+  width: 500px;
+  height: 270px;
+}
+
 .history {
   padding: 10px 20px;
   width: 500px;
-  height: 300px;
+  height: 420px;
   background: aquamarine;
-  color: orangered;
   font-weight: bold;
   border-radius: 3px;
   margin-bottom: 20px;
@@ -80,7 +91,7 @@ body {
   width: 120px;
   padding: 5px;
   background: antiquewhite;
-  color: black;
+  color: orangered;
   margin-bottom: 20px;
   font-weight: bold;
 }

@@ -5,6 +5,7 @@ const symbol = document.querySelector('#symbol')
 const minmaxInput = document.querySelector('#minmax-input')
 const minmaxResult = document.querySelector('#minmax-result')
 const history = document.querySelector('#history')
+const inputs = document.querySelectorAll('.input')
 const buttons = document.querySelectorAll('.math-op')
 const disableBtns = () => {
     if (leftInput.value === '' || rightInput.value === '') {
@@ -96,6 +97,8 @@ const addHistoryMaxMin = () => {
 
 const resultBtn = document.querySelector('#result-btn')
 resultBtn.addEventListener('click', () => {
-    history.innerHTML = ''
-    confirm('Press OK or cancel')
+        if (confirm('Press OK or cancel')){
+        history.innerHTML = ''
+        Array.from(inputs).forEach(it => it.value = '')
+    }
 })
