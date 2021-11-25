@@ -30,7 +30,6 @@ body {
 .col-6 {
   width: 50%;
   padding: 30px 15px;
-  text-align: center;
   background: black;
 }
 
@@ -42,7 +41,6 @@ body {
 .input {
   width: 25%;
   background: aquamarine;
-  color: red;
   border: none;
   padding: 5px;
   border-radius: 2px;
@@ -65,10 +63,15 @@ body {
 }
 
 .history {
+  padding: 10px 20px;
+  width: 500px;
+  height: 300px;
   background: aquamarine;
   color: orangered;
+  font-weight: bold;
   border-radius: 3px;
   margin-bottom: 20px;
+  overflow: auto;
 }
 
 .result-btn {
@@ -80,6 +83,10 @@ body {
   color: black;
   margin-bottom: 20px;
   font-weight: bold;
+}
+
+.result-btn:hover {
+  background: yellow;
 }
 
 /*# sourceMappingURL=style.css.map */
